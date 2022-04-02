@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatchEcommerce</title>
+    <link rel="stylesheet" href="estios.css">
+    <link rel="shortcut icon" href="img/apple-black-logo.png" type="image/x-icon">
+</head>
+<body>
+   
+    
+    <section class="banner">
+        <header>
+            <a href="" class="logo">Watch</a>
+            <div class="funcionNav" onclick="navFuncion()"></div>
+           
+        </header>
+
+            <div class="contenedor">
+                <div class="textBx">
+                    <h2>future on<br>your hand</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, facere aperiam pariatur quos expedita nulla perspiciatis? Esse ad quis, incidunt possimus nesciunt deserunt. Distinctio magni fugit earum, iusto dignissimos harum!</p>
+                    <a href="">buy now</a>
+                </div>
+                
+                <div class="imgBx">
+                    <img src="img/watch.png" alt="">
+                </div>
+            </div>
+
+            <ul class="redes">
+                <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                <li><a href=""><img src="img/twitter.png" alt=""></a></li>
+                <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+            </ul>
+           
+            <ul class="navegador">
+                
+                <li><a href="" onclick="navFuncion()">Home</a></li>
+                <li><a href="" onclick="navFuncion()">About</a></li>
+                <li><a href="" onclick="navFuncion()">Products</a></li>
+                <li><a href="" onclick="navFuncion()">Store</a></li>
+                <li><a href="" onclick="navFuncion()">Contact</a></li>
+            </ul>
+        
+    </section>
+
+    <footer>
+        <div class="derechos">
+            <p>Copyright 2022 <span>Edinson Morales </span>Todos Los derechos reservados</p>
+        </div>
+    </footer>
+    
+
+    <script type="text/javascript">
+        function navFuncion(){
+            const funcionNav = document.querySelector('.funcionNav');
+            const navegador= document.querySelector('.banner')
+            funcionNav.classList.toggle('active');
+            navegador.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
